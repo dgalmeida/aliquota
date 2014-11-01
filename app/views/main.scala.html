@@ -1,0 +1,31 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap-theme.min.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/bootstrap.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="page-header">
+            <h1>Cálculo Salário Líquido <br>
+            <small>Atividade da Metéria Padrões de Projeto - Prof. Marcos Aurélio</small>
+            </h1>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Aqui vai o célculo
+            </div>
+        </div>
+        @content
+
+        </div>
+    </body>
+</html>
