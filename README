@@ -1,4 +1,4 @@
-This is your new Play application
-=================================
+#Aplicão Play para matéria de PP na PUC-Minas
 
-This file will be packaged with your application, when using `activator dist`.
+Cálculo de alíquoda de imposto de renda não vinculada ao ano
+utilizando Strategy e Visitor
